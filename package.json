@@ -1,0 +1,28 @@
+{
+  "name": "parcel-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/component-compiler-utils": "^2.0.0",
+    "less": "^3.0.4",
+    "typescript": "^2.9.2",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-property-decorator": "^6.1.0"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.4",
+    "cypress": "^3.0.1",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
