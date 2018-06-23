@@ -1,6 +1,6 @@
 # Vue.js + TypeScript + Parcel Project Template
 
-This project contains an example configuration for a Vue.js application that is written in TypeScript, built with Parcel, and tested with Cypress.
+This project contains an example configuration for a Vue.js application that is written in TypeScript, built with Parcel, and tested with Mocha and Cypress.
 
 ## Dev Setup
 
@@ -18,7 +18,12 @@ parcel build src/index.html
 
 ## Run Unit Tests
 
-TODO
+```
+parcel build ./test_map.js -d dist_test
+./node_modules/.bin/mocha -r jsdom-global/register
+```
+
+Note that new components should be added to test_map.js in order to make them easily available to the unit tests.
 
 ## Write/Run Integration Tests
 
